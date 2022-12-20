@@ -109,4 +109,10 @@ export default defineComponent({
   justify-content: center;
 }
 
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 0;
+  }
+}
 </style>
